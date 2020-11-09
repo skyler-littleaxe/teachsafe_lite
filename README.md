@@ -1,2 +1,2 @@
 # teachsafe_lite
-Wep app that allows teachers to track 
+Web app that allows teachers to track the allergies of students. 
