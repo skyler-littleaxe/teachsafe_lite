@@ -54,3 +54,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "devise", "~> 4.7"
+gem 'therubyracer'
+gem 'omniauth'
+gem 'omniauth-digitalocean'
+gem 'omniauth-google-oauth2'
+gem 'dotenv-rails'

@@ -21,6 +21,17 @@
     <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
   </div>
 
+  <div class="field">
+    <%= f.label :guardian_account, "Guardian Account" %><br />
+    <%= f.check_box :guardian_account %>
+  </div>
+
+  <div class="field">
+    <%= f.label :teacher_account, "Teacher Account" %><br />
+    <%= f.check_box :teacher_account %>
+  </div>
+
+
   <div class="actions">
     <%= f.submit "Sign up" %>
   </div>
