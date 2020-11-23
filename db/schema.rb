@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2020_11_21_091501) do
     t.datetime "updated_at", precision: 6, null: false
     t.boolean "guardian_account", default: false
     t.boolean "teacher_account", default: false
-    t.string "primary_user_full_name"
+    t.string "full_name"
     t.string "avatar_url"
     t.string "uid"
     t.index ["email"], name: "index_users_on_email", unique: true
