@@ -6,6 +6,7 @@ class CreateTeachers < ActiveRecord::Migration[6.0]
       t.string :email
       t.string :phone_number
       t.belongs_to :user, null: false, foreign_key: true
+      
 
       t.timestamps
     end
