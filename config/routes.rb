@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :student_teachers
   resources :students
   resources :teachers
   root 'welcome#home'
